@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "*"
+pandas = "~=2.0"
+pydot = "*"
+matplotlib = "*"
+
+[dev-packages]
+ipykernel = "~=6.23"
+mypy = "~=1.3"
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.8"
